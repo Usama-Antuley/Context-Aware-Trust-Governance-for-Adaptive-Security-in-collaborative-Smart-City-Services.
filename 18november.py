@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).parent
 LOGS_DIR = BASE_DIR / "logs"
 LOGS_DIR.mkdir(exist_ok=True)
 
-OPENWEATHER_KEY = os.getenv("OPENWEATHER_API_KEY", "ba0fb7fc101945334cd612a363ae1425")
+OPENWEATHER_KEY = os.getenv("OPENWEATHER_API_KEY", "PLACE YOUR API KEY HERE") #API Key is required
 SOILGRIDS_URL = "https://rest.isric.org/soilgrids/v2.0/properties/query"
 
 CROP_THRESHOLDS = {
@@ -879,4 +879,5 @@ def main():
     print(f"[2025] R={R:.3f} → T_overall={T_overall:.3f} → ECC-{tier} → {action}")
 
 if __name__ == "__main__":
+
     main()
