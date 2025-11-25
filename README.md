@@ -1,4 +1,4 @@
-# Context-Aware-Trust-Governance-for-Adaptive-Security-in-collaborative-Smart-City-Services.
+  # Context-Aware-Trust-Governance-for-Adaptive-Security-in-collaborative-Smart-City-Services.
 This repo implements the “Context-Aware Trust Governance for Adaptive Security in Collaborative Smart City Services” framework, featuring real-time environmental sensing, dynamic trust computation, MultiChain-based security, and automated ECC escalation for adaptive smart agriculture security.
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/)
@@ -384,7 +384,7 @@ $$T_{\text{Rept}}(t) = \frac{\sum c_j \cdot f_j}{\sum c_j}$$
 - $f_j$ = feedback from peer $j$
 
 ### 3. Contextual Trust (Definition 3)
-$$T_{\text{Ctx}}(t) = \min\!\left(0.7 \times (M_{\text{rain}}^{0.6} \times M_{\text{temp}}^{0.4}), 1\right)$$
+$$T_{\text{Ctx}}(t) = \min \left(0.7 \times (M_{\text{rain}}^{0.6} \times M_{\text{temp}}^{0.4}), 1\right)$$
 
 **Environmental Modifiers:**
 - $M_{\text{rain}} = 1 - \frac{\text{rainfall}}{50}$ (if rain < 50mm else 0)
