@@ -1,0 +1,6 @@
+,128,192,256
+0,"{'requests': 100, 'throughput': 4201.15, 'exec_time': 0.24, 'delay': 0.74}","{'requests': 100, 'throughput': 632.86, 'exec_time': 1.58, 'delay': 2.08}","{'requests': 100, 'throughput': 230.02, 'exec_time': 4.35, 'delay': 4.85}"
+1,"{'requests': 500, 'throughput': 6112.5, 'exec_time': 0.16, 'delay': 0.66}","{'requests': 500, 'throughput': 641.25, 'exec_time': 1.56, 'delay': 2.06}","{'requests': 500, 'throughput': 230.3, 'exec_time': 4.34, 'delay': 4.84}"
+2,"{'requests': 1000, 'throughput': 5843.34, 'exec_time': 0.17, 'delay': 0.67}","{'requests': 1000, 'throughput': 645.63, 'exec_time': 1.55, 'delay': 2.05}","{'requests': 1000, 'throughput': 237.38, 'exec_time': 4.21, 'delay': 4.71}"
+3,"{'requests': 2000, 'throughput': 5953.02, 'exec_time': 0.17, 'delay': 0.67}","{'requests': 2000, 'throughput': 638.68, 'exec_time': 1.57, 'delay': 2.07}","{'requests': 2000, 'throughput': 240.95, 'exec_time': 4.15, 'delay': 4.65}"
+4,"{'requests': 5000, 'throughput': 5973.49, 'exec_time': 0.17, 'delay': 0.67}","{'requests': 5000, 'throughput': 623.46, 'exec_time': 1.6, 'delay': 2.1}","{'requests': 5000, 'throughput': 198.41, 'exec_time': 5.04, 'delay': 5.54}"
