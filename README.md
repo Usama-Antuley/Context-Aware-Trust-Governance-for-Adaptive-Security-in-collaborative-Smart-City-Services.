@@ -134,7 +134,7 @@ mkdir -p logs keys blockchain streams
 tree -a
 # Expected output:
 # .
-# ├── 18november.py
+# ├── main.py
 # ├── multichain.py
 # ├── updated_Registration.py
 # ├── logs/
@@ -288,7 +288,7 @@ done
 
 ## 🔧 Core Modules Detailed
 
-### 1. Main Trust Framework (`18november.py`)
+### 1. Main Trust Framework (`main.py`)
 **Complete adaptive security implementation**
 
 #### Key Components:
@@ -420,7 +420,7 @@ python updated_Registration.py
 ### Step 2: Real-time Trust Assessment
 ```bash
 # Run continuous trust monitoring
-python 18november.py
+python main.py
 
 # Expected Output:
 # [2025] R=0.234 → T_overall=0.812 → ECC-128 → ALLOW
@@ -432,7 +432,7 @@ python 18november.py
 ### Step 3: Performance Benchmarking
 ```bash
 # Run comprehensive performance tests
-python 18november.py --benchmark
+python main.py --benchmark
 
 # This generates:
 # - 11 performance figures (PNG format)
@@ -447,7 +447,7 @@ cat > monitor_system.sh << 'EOF'
 #!/bin/bash
 while true; do
     echo "=== System Status $(date) ==="
-    python 18november.py
+    python main.py
     sleep 300  # Run every 5 minutes
 done
 EOF
@@ -627,7 +627,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 # Test individual components
-from 18november import compute_historical_trust, compute_risk
+from main.py import compute_historical_trust, compute_risk
 test_trust = compute_historical_trust("test_service", time.time())
 print(f"Test trust: {test_trust}")
 ```
